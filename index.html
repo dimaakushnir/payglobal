@@ -34,22 +34,22 @@
                     <nav class="header__menu menu-header" data-da="mobile-header__body, 1, 1024.98">
                         <ul class="menu-header__list">
                             <li class="menu-header__item">
-                                <a href="" class="menu-header__link">Home</a>
+                                <a href="" class="menu-header__link link-scroll" data-scroll="home">Home</a>
                             </li>
                             <li class="menu-header__item">
-                                <a href="" class="menu-header__link">About</a>
+                                <a href="" class="menu-header__link link-scroll" data-scroll="about">About</a>
                             </li>
                             <li class="menu-header__item">
-                                <a href="" class="menu-header__link">Solutions</a>
+                                <a href="" class="menu-header__link link-scroll" data-scroll="solutions">Solutions</a>
                             </li>
                             <li class="menu-header__item">
-                                <a href="" class="menu-header__link">Services</a>
+                                <a href="" class="menu-header__link link-scroll" data-scroll="services">Services</a>
                             </li>
                             <li class="menu-header__item">
-                                <a href="" class="menu-header__link">Benefits</a>
+                                <a href="" class="menu-header__link link-scroll" data-scroll="benefits">Benefits</a>
                             </li>
                             <li class="menu-header__item">
-                                <a href="" class="menu-header__link">Contact</a>
+                                <a href="" class="menu-header__link link-scroll" data-scroll="contact">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -64,7 +64,8 @@
                             </ul>
                         </div>
                     </div>
-                    <a href="" class="header__btn btn" data-da="mobile-header__body, 2, 1024.98">
+                    <a href="" class="header__btn btn link-scroll" data-scroll="contact"
+                        data-da="mobile-header__body, 2, 1024.98">
                         <span>Contact</span>
                     </a>
                     <button class="header__burger">
@@ -93,7 +94,22 @@
                     <img src="img/bg-blur.png" alt="bg-blur">
                 </div>
             </div>
-            <section class="fullscreen">
+            <div class="bg bg_3">
+                <div class="bg__image ibg">
+                    <img src="img/bg-blur.png" alt="bg-blur">
+                </div>
+            </div>
+            <div class="bg bg_4">
+                <div class="bg__image ibg">
+                    <img src="img/bg-blur.png" alt="bg-blur">
+                </div>
+            </div>
+            <div class="bg bg_5">
+                <div class="bg__image ibg">
+                    <img src="img/bg-blur.png" alt="bg-blur">
+                </div>
+            </div>
+            <section class="fullscreen" id="home">
                 <div class="fullscreen__content">
                     <div class="fullscreen__container container">
                         <div class="fullscreen__body">
@@ -119,7 +135,7 @@
                                 <span>Learn more</span>
                             </a>
                         </div>
-                        <a href="" class="fullscreen__btn-scroll">
+                        <a href="" class="fullscreen__btn-scroll link-scroll" data-scroll="about">
                             <span>
                                 <svg>
                                     <use xlink:href="#arrow-scroll"></use>
@@ -132,12 +148,6 @@
                     <div class="animation-fullscreen__element">
                         <img src="img/animations/fullscreen.gif" alt="animations-gif">
                     </div>
-                    <!-- <div class="animation-fullscreen__element animation-fullscreen__element_1">
-                        <img src="img/animations/01.gif" alt="animations-gif">
-                    </div>
-                    <div class="animation-fullscreen__element animation-fullscreen__element_2">
-                        <img src="img/animations/02.gif" alt="animations-gif">
-                    </div> -->
                     <div class="animation-fullscreen__icons">
                         <div class="animation-fullscreen__icon animation-fullscreen__icon_1">
                             <img src="img/fullscreen/icons/01.png" alt="animation-icon">
@@ -157,7 +167,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="about__container container">
                     <div class="about__body">
                         <div class="about__subtitle subtitle">
@@ -174,7 +184,7 @@
                                 each transaction.
                             </p>
                         </div>
-                        <a href="" class="about__btn btn">
+                        <a href="" class="about__btn btn link-scroll" data-scroll="contact">
                             <span>Start collaborating</span>
                         </a>
                         <div class="about__info info-about">
@@ -217,7 +227,7 @@
                     </div>
                 </div>
             </section>
-            <section class="solutions">
+            <section class="solutions" id="solutions">
                 <div class="solutions__container container">
                     <div class="solutions__body">
                         <div class="solutions__subtitle subtitle">Business Solutions</div>
@@ -295,6 +305,260 @@
                             <a href="" class="solutions__btn btn">
                                 <span>Learn more</span>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="services" id="services">
+                <div class="services__body">
+                    <div class="services__container container">
+                        <div class="services__row">
+                            <div class="services__column">
+                                <div class="services__content">
+                                    <div class="services__subtitle subtitle">
+                                        Our Services
+                                    </div>
+                                    <h2 class="services__title">
+                                        Comprehensive<br>
+                                        Services<br>
+                                        for Your Business
+                                    </h2>
+                                    <div class="services__items">
+                                        <div class="services__item item-services">
+                                            <div class="item-services__number">
+                                                01
+                                            </div>
+                                            <div class="item-services__text">
+                                                Payment of international contracts and invoices
+                                            </div>
+                                        </div>
+                                        <div class="services__item item-services">
+                                            <div class="item-services__number">
+                                                02
+                                            </div>
+                                            <div class="item-services__text">
+                                                Management<br> of export revenues
+                                            </div>
+                                        </div>
+                                        <div class="services__item item-services">
+                                            <div class="item-services__number">
+                                                03
+                                            </div>
+                                            <div class="item-services__text">
+                                                Payment for supplies and services in companies that do not work with
+                                                cryptocurrency
+                                            </div>
+                                        </div>
+                                        <div class="services__item item-services">
+                                            <div class="item-services__number">
+                                                04
+                                            </div>
+                                            <div class="item-services__text">
+                                                Transfers in foreign currency using crypto instruments
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="" class="services__btn btn link-scroll" data-scroll="contact">
+                                        <span>Start collaborating</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__video">
+                    <video autoplay muted loop playsinline>
+                        <source src="img//animations/services.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+            <section class="transfers" id="transfers">
+                <div class="transfers__body">
+                    <div class="transfers__container container">
+                        <div class="transfers__content">
+                            <div class="transfers__subtitle subtitle">Global Transfers</div>
+                            <h2 class="transfers__title">
+                                International Payments
+                                to Over 100 Countries
+                            </h2>
+                            <div class="transfers__text">
+                                <p>
+                                    PayGlobal.pro provides worldwide payment access, covering Europe, Asia, the
+                                    Americas, and Africa. We ensure transparency and security in all transactions,
+                                    supporting your success in international relations.
+                                </p>
+                            </div>
+                            <a href="" class="transfers__btn btn link-scroll" data-scroll="contact">
+                                <span>Start collaborating</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="transfers__countres countres-transfers">
+                    <div class="countres-transfers__map">
+                        <img src="img/map.png" alt="map">
+                        <div class="countres-transfers__items">
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_1">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/canada.png" alt="canada">
+                                </div>
+                                <div class="item-countres-transfers__name">Canada</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_2">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/spain.png" alt="spain">
+                                </div>
+                                <div class="item-countres-transfers__name">Spain</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_3">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/france.png" alt="france">
+                                </div>
+                                <div class="item-countres-transfers__name">France</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_4">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/italy.png" alt="italy">
+                                </div>
+                                <div class="item-countres-transfers__name">Italy</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_5">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/germany.png" alt="germany">
+                                </div>
+                                <div class="item-countres-transfers__name">Germany</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_6">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/kazakhstan.png" alt="kazakhstan">
+                                </div>
+                                <div class="item-countres-transfers__name">Kazakhstan</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_7">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/china.png" alt="china">
+                                </div>
+                                <div class="item-countres-transfers__name">China</div>
+                            </div>
+                            <div class="countres-transfers__item item-countres-transfers item-countres-transfers_8">
+                                <div class="item-countres-transfers__icon">
+                                    <img src="img/countres/indonesia.png" alt="indonesia">
+                                </div>
+                                <div class="item-countres-transfers__name">Indonesia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefits" id="benefits">
+                <div class="benefits__container container">
+                    <div class="benefits__row">
+                        <div class="benefits__column benefits__column_content">
+                            <div class="benefits__subtitle subtitle">Benefits</div>
+                            <h2 class="benefits__title">
+                                Your International<br>
+                                Payments
+                            </h2>
+                            <div class="benefits__advantages advantages">
+                                <ul class="advantages__list">
+                                    <li class="advantages__item">Reliable</li>
+                                    <li class="advantages__item">Transparent</li>
+                                    <li class="advantages__item">Convenient</li>
+                                </ul>
+                            </div>
+                            <div class="benefits__items">
+                                <div class="benefits__item item-benefits">
+                                    <div class="item-benefits__icon">
+                                        <img src="img/benefits/01.png" alt="benefits-icon">
+                                    </div>
+                                    <div class="item-benefits__text">
+                                        Full protection of financial transactions
+                                    </div>
+                                </div>
+                                <div class="benefits__item item-benefits">
+                                    <div class="item-benefits__icon">
+                                        <img src="img/benefits/02.png" alt="benefits-icon">
+                                    </div>
+                                    <div class="item-benefits__text">
+                                        Compliance with legal requirements
+                                    </div>
+                                </div>
+                                <div class="benefits__item item-benefits">
+                                    <div class="item-benefits__icon">
+                                        <img src="img/benefits/03.png" alt="benefits-icon">
+                                    </div>
+                                    <div class="item-benefits__text">
+                                        Transparency and clear support at every stage
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="benefits__column benefits__column_logo">
+                            <div class="benefits__logo-block">
+                                <div class="benefits__animation">
+                                    <img src="img/animations/logo.gif" alt="logo">
+                                </div>
+                                <div class="benefits__logo">
+                                    <img src="img/logo.svg" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="contact__container container">
+                    <div class="contact__row">
+                        <div class="contact__column contact__column_content">
+                            <div class="contact__subtitle subtitle">Contact</div>
+                            <h2 class="contact__title">
+                                Contact<br>
+                                PayGlobal.pro
+                            </h2>
+                            <div class="contact__text">
+                                <p>
+                                    to discuss personalized solutions for your business.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact__column contact__column_form">
+                            <form action="#" class="contact__form form-contact">
+                                <div class="form-contact__row">
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <input placeholder="Сведения о компании" autocomplete='off' type='text'
+                                            name='form[]' class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_medium">
+                                        <input placeholder="Сумма" autocomplete='off' type='text' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_medium">
+                                        <input placeholder="Валюта" autocomplete='off' type='text' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <input placeholder="Назначение платежа" autocomplete='off' type='text'
+                                            name='form[]' class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <input placeholder="E-mail" autocomplete='off' type='email' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_big">
+                                        <input placeholder="Telegram" autocomplete='off' type='text' name='form[]'
+                                            class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_prev-btn">
+                                        <input placeholder="Реферальный код" autocomplete='off' type='text'
+                                            name='form[]' class='form-contact__input'>
+                                    </div>
+                                    <div class="form-contact__column form-contact__column_btn">
+                                        <button type='submit' class='form-contact__btn btn'>
+                                            <span>Send</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
